@@ -1,10 +1,11 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-
 }
-.top{
+
+/* Inicio Nav  */
+.top {
     background-color: black;
     display: flex;
     /* alinhamento horizontal */
@@ -13,30 +14,71 @@
     /* alinhamento vertical */
     align-items: center;
 }
-.logo img{
+
+.logo img {
     width: 170px;
     height: 64px;
 }
-.search input{
-width: 404px;
-height: 32px;
+
+.search input {
+    width: 404px;
+    height: 32px;
 }
 
-.login p{
+.login p {
     color: #fff;
     font-size: 18px;
     font-weight: bold;
 }
-.cart img {
-    width: 48px;
-}
+
+/* carrinho de compras */
 .cart {
     display: flex;
+}
+
+.cart img {
+    width: 48px;
+    padding-left: 75px;
 
 }
+
 .cart p {
     color: #fff;
     font-weight: bold;
     font-size: 18px;
-    
+}
+
+/* Inicio Menu */
+.menu-nav {
+    display: flex;
+    width: 968px;
+    height:68px;
+    background-color:blue;
+    border: 2px solid red;
+    justify-content: center;
+    margin-left: 78px;
+    padding-top: 10px;
+}
+
+.menu-hamburguer img{
+    width: 33px;
+    height: 33px;
+    padding-top: 10px;
+    margin-left: 10px;
+
+}
+
+.menu-nav ul {
+    display: flex;
+    list-style: none;
+    padding-top: 15px;
+
+}
+
+.menu-nav a {
+     font-size: 20px;
+    color: black;
+    padding: 20px;
+    text-align: center;
+
 }
