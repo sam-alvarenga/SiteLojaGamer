@@ -51,12 +51,11 @@
 /* Inicio Menu */
 .menu-nav {
     display: flex;
-    width: 968px;
     height:68px;
     background-color:blue;
     border: 2px solid red;
     justify-content: center;
-    margin-left: 78px;
+    margin: 0 30px 0 30px;
     padding-top: 10px;
 }
 
@@ -80,5 +79,7 @@
     color: black;
     padding: 20px;
     text-align: center;
+    text-decoration: none;
 
 }
+
