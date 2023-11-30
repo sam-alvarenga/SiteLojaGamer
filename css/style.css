@@ -24,6 +24,7 @@ body {
     height: 64px;
     border-radius: 16px;
 }
+
 /* pesquisa */
 .search input {
     width: 404px;
@@ -129,6 +130,7 @@ body {
     color: #fff;
     text-align: center;
     margin-bottom: 20px;
+    font-size: 2em;    
 }
 
 .precos {
@@ -136,12 +138,49 @@ body {
     justify-content: space-around;
 }
 
-.parcelas img {
-   
+.precos p {
+    width: 300px;
+    height: 45px ;
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    text-align:center;
+    font-weight: bold;
+    line-height: 25px;
 }
 
-.parcelas p {
- background-color: white;
- margin-top: 5px;
- 
+
+.precos img {
+    padding-top: 60px;
+    width: 240px;
+    height: 250px;
+    padding-left: 70px;
 }
+.banner {
+    display: flex;
+    justify-content: center;
+}
+.banner img {
+    width: 80%;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+/* footer (rodarpé) */
+
+footer{
+    background-color: black;
+    padding: 40px;
+}
+
+.sobre{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+
+}
+.sobre li{
+    list-style: none;
+    padding-top: 15px;
+    color: #717171;
+}
+
